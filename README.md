@@ -1,11 +1,12 @@
-# Photomap
-A Leaflet map that reads data from Google Sheets.  
+# Photomap of Sidman, Pennsylvania
 
 Created as an example for [GEOG 4046](https://geog4046.github.io).  
 
-Each row in the sheet will appear as a marker on the map. When the marker is clicked, a popup will appear showing information about the location, taken from the columns of the spreadsheet.  
+The sheet of csv values will have each row displayed on the map as a pop up including a description and a picture of each location. 
 
-This script assumes the Google Sheet has the following columns. These match the attribute names used for the [Story Map Tour](https://www.arcgis.com/home/item.html?id=91d75e9b375e4e9b9b3a4004544bfadf) template in ArcGIS Online.  
+The script for this webaite reads values from a Google Sheets spreadsheet. All of the geographic data was taken from an earlier Storymap assignment, which is linked here: <https://lsu-its.maps.arcgis.com/apps/MapTour/index.html?appid=afec40ac59604619a7c066d5ee5152ff>
+
+The link to the Leaflet map is linked here: <https://trinitysivec.github.io/photomap/>
 
 Column name | Description
 :-----------|--------------------------------------------------------------
